@@ -1,0 +1,349 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: url(./pexels-ekaterina-bolovtsova-6193138.jpg);
+    background-size: cover;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 900px;
+
+    gap: 10px;
+}
+
+.header h1 {
+    font-size: 64px;
+
+}
+
+.header p {
+    font-style: italic;
+}
+
+.header button {
+    height: 40px;
+    width: 130px;
+    background-color: rgb(139, 161, 187);
+    border: 0px;
+    border-radius: 9px;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.header button:hover {
+    font-size: 15px;
+
+    background-color: rgb(113, 131, 153);
+
+}
+
+
+.offer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+
+}
+
+.offer button {
+    height: 60px;
+    width: 130px;
+    background-color: rgb(32, 33, 34);
+    border: 0px;
+    border-radius: 9px;
+    font-size: 16px;
+    transition: .3s;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.offer button:hover {
+    background-color: rgb(69, 71, 73);
+    color: black;
+}
+
+.services {
+    background-color: rgb(24, 152, 211);
+}
+
+.ourserv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 60px;
+
+}
+
+.ourserv p {
+    color: rgb(210, 192, 30);
+
+}
+
+.ourserv h2 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+
+.oicons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 240px;
+    padding-bottom: 15px;
+}
+
+.i {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+.texts {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 240px;
+
+}
+
+.t {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+.p {
+    padding-top: 10px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 20%;
+    left: -50px;
+}
+
+.welcome {
+    background-image: url(./code.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    color: rgb(0, 0, 0);
+
+}
+
+.welcome h1 {
+    padding: 20px 20px;
+    background-color: rgb(153, 153, 153);
+    opacity: 0.6;
+    margin-top: 10px;
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+}
+
+.welcome button {
+    padding: 15px 10px;
+    margin-top: 30px;
+    background-color: rgb(194, 194, 194);
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.welcome button:hover {
+    background-color: rgb(45, 53, 61);
+}
+
+.projects1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 500px;
+    height: 600px;
+
+}
+
+.texts1 {
+    padding-bottom: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texts1 p {
+    color: rgb(155, 155, 8);
+}
+
+.texts1 h2 {
+    font-size: 36px;
+}
+
+.prdiv {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-bottom: 70px;
+}
+
+.imgs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+}
+
+.imgs1 {
+    position: relative;
+}
+
+.prdiv img {
+    width: 500px;
+
+}
+
+.imgovrl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98%;
+    opacity: 0;
+    transition: opacity .3s;
+    background-color: rgb(42, 177, 187);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.imgovrl h2 {
+    color: white;
+}
+
+.imgs1:hover .imgovrl {
+    opacity: 0.7;
+
+}
+
+.secbt {
+    padding-top: 500px;
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.btns {
+
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 100px;
+
+
+}
+
+.bt1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(137, 141, 145);
+    width: 100px;
+    height: 45px;
+    border: 0px;
+    border-radius: 4px;
+    transition: .6s;
+}
+
+.bt2 {
+    background-color: rgb(204, 202, 202);
+    color: rgb(21, 25, 29);
+    width: 100px;
+    height: 45px;
+    border: 0px;
+    border-radius: 4px;
+    transition: .6s;
+}
+
+.bt1:hover {
+    background-color: rgb(204, 202, 202);
+    color: rgb(21, 25, 29);
+
+}
+
+.bt2:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(137, 141, 145);
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    padding-bottom: 100px;
+}
+
+.icons {
+
+    display: flex;
+
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+
+.icons i {
+    font-size: 36px;
+    background-color: rgb(38, 131, 160);
+    padding: 25px;
+    border-radius: 50%;
+    transition: .4s;
+
+}
+
+.icons i:hover {
+    background-color: rgb(37, 83, 97);
+}
